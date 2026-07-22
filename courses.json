@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Full-Stack Web Development for Beginners",
+    "description": "Learn HTML, CSS, JavaScript and the basics of backend development from scratch. Certificate of completion included.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+    "enrollLink": "https://example.com/replace-with-your-course-link-1"
+  },
+  {
+    "title": "Python for Engineering Students",
+    "description": "A beginner-friendly Python course covering syntax, data structures, and small real-world projects.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&q=80",
+    "enrollLink": "https://example.com/replace-with-your-course-link-2"
+  },
+  {
+    "title": "Resume & LinkedIn Building for Freshers",
+    "description": "A short, practical course on building a strong resume and LinkedIn profile before placement season.",
+    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+    "enrollLink": "https://example.com/replace-with-your-course-link-3"
+  }
+]

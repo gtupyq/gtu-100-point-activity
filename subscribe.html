@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subscribe — GTU 100 Point Activity</title>
+<meta name="description" content="Subscribe for free updates on new GTU certificates, quizzes and opportunities — delivered straight to your inbox.">
+<meta name="keywords" content="GTU 100 Point Activity, GTU Student Opportunity, subscribe, updates">
+<link rel="canonical" href="https://example.com/subscribe.html">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="app-bar">
+  <div class="app-bar-inner">
+    <a href="index.html" class="brand">
+      <img src="images/logo.svg" alt="GTU 100 Point Activity logo">
+      <span class="brand-text">
+        <span class="b1">GTU <span>100</span></span>
+        <span class="b2">POINT ACTIVITY</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#quizzes">Activities</a>
+      <a href="index.html#about">Certificates</a>
+      <a href="courses.html">Course</a>
+      <a href="contact.html">Contact</a>
+      <a href="subscribe.html" class="nav-cta">Subscribe</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<section class="section" style="padding-top:56px;">
+  <div class="container">
+    <div class="subscribe-card">
+      <h2>Subscribe for Free Updates</h2>
+      <p>Get new GTU certificates, quizzes and opportunities delivered to your inbox. No spam \u2014 unsubscribe anytime.</p>
+
+      <!--
+        NOTE FOR SITE OWNER — Brevo setup required (2 minutes):
+        1. In Brevo, go to Contacts → Forms → create a new "Embedded form".
+        2. Brevo will give you a form action URL like:
+           https://xxxxxx.sibforms.com/serve/MUIxxxxxxxxxxxxxxxxxxxxxxxx
+        3. Paste that URL below, replacing BREVO_FORM_ACTION_URL in script.js.
+        This uses Brevo's own hosted form endpoint — no secret API key is
+        ever used or exposed in this code, which is what makes it safe to
+        run entirely from GitHub Pages with no backend.
+      -->
+      <form id="brevo-subscribe-form" class="subscribe-form" novalidate>
+        <input type="email" id="subscribe-email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address">
+        <button type="submit" class="btn-participate" id="subscribe-btn">Subscribe</button>
+      </form>
+      <p class="subscribe-message" id="subscribe-message" role="status" aria-live="polite"></p>
+      <p class="subscribe-note">By subscribing you agree to our <a href="privacy.html">Privacy Policy</a>. Every email includes an unsubscribe link.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <div class="footer-logo">
+        <img src="images/logo.svg" alt="GTU 100 Point Activity logo">
+        <span>GTU 100 Point Activity</span>
+      </div>
+      <p>An independent, student-run resource helping GTU engineering students find free certificates, quizzes and opportunities in one place.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="index.html#quizzes">Activities</a>
+      <a href="index.html#about">Certificates</a>
+      <a href="courses.html">Course</a>
+    </div>
+    <div class="footer-col">
+      <h4>More</h4>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="subscribe.html">Subscribe</a>
+    </div>
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <a href="https://youtube.com/@your-channel" target="_blank" rel="noopener" class="youtube-footer-link">Watch on YouTube</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <span>&copy; <span id="footer-year"></span> GTU 100 Point Activity \u2014 not affiliated with GTU.</span>
+      <span>Some links on this site are affiliate links.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://youtube.com/@your-channel" target="_blank" rel="noopener" class="yt-fab" aria-label="Visit our YouTube channel">
+  <svg viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="4" fill="#FF3B30"/><path d="M10 8.5v7l6-3.5z" fill="#fff"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
