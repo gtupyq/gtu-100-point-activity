@@ -49,7 +49,7 @@ const ENDING_SOON_HOURS = 48; // hours before deadline that counts as "Ending So
    → add a "Send email" step. Brevo's email templates include an unsubscribe
    link by default in the footer — keep that footer when you design the email.
    ---------------------------------------------------------------------------- */
-const BREVO_FORM_ACTION_URL = 'https://REPLACE-ME.sibforms.com/serve/REPLACE-ME';
+const BREVO_FORM_ACTION_URL = 'https://d8cd755a.sibforms.com/serve/MUIFAMuE7wRsHvKxAzG4kMRV0NnjpIuc1TMlcX3f6djAJwykwdqEumwR4C70i6PVmb_me7iyWwPSWJqSL4KumuhZ1dkQptTL4u1hGaAnNGDzGYFFI9gccpdE_BHJsXVoq5vHEh6WyZSgF1eBXI6RpOxIS_5tY8rqPqC6sKH1vObmcO2fJeTFWFy3y4d_Z2pzvYvqwDT6TGhN2bCaWg==';
 
 // Keeps the full processed activity list in memory so filter chips can
 // re-render instantly without re-fetching quizzes.json.
