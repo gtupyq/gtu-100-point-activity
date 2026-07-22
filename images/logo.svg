@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GTU 100 Point Activity logo">
+  <!-- Graduation cap -->
+  <g>
+    <polygon points="32,2 50,10 32,18 14,10" fill="none" stroke="#1DBE96" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="46" y1="11.5" x2="46" y2="20" stroke="#1DBE96" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="46" cy="21.5" r="2" fill="#1DBE96"/>
+  </g>
+  <!-- Hexagon badge -->
+  <polygon points="32,16 53.78,28 53.78,52 32,64 10.22,52 10.22,28"
+           fill="#10151F" stroke="#1DBE96" stroke-width="3"/>
+  <!-- "100" -->
+  <text x="32" y="45" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">100</text>
+</svg>
