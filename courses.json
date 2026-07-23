@@ -1,20 +1,37 @@
 [
   {
-    "title": "Full-Stack Web Development for Beginners",
-    "description": "Learn HTML, CSS, JavaScript and the basics of backend development from scratch. Certificate of completion included.",
+    "title": "Responsive Web Design (freeCodeCamp)",
+    "description": "A fully free, self-paced certification covering HTML, CSS and responsive design fundamentals, with hands-on projects. 100% free forever, including the certificate.",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
-    "enrollLink": "https://example.com/replace-with-your-course-link-1"
+    "enrollLink": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "category": "Programming"
   },
   {
-    "title": "Python for Engineering Students",
-    "description": "A beginner-friendly Python course covering syntax, data structures, and small real-world projects.",
-    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&q=80",
-    "enrollLink": "https://example.com/replace-with-your-course-link-2"
+    "title": "CS50x: Introduction to Computer Science (Harvard, via edX)",
+    "description": "Harvard's legendary intro to computer science and programming — covers C, Python, SQL, and web development. Free to audit, and a free certificate is available if you complete the course requirements.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+    "enrollLink": "https://cs50.harvard.edu/x/",
+    "category": "Computer Science"
   },
   {
-    "title": "Resume & LinkedIn Building for Freshers",
-    "description": "A short, practical course on building a strong resume and LinkedIn profile before placement season.",
-    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
-    "enrollLink": "https://example.com/replace-with-your-course-link-3"
+    "title": "Fundamentals of Digital Marketing (Google Digital Garage)",
+    "description": "Google's own free course on digital marketing basics — SEO, social media, analytics and more. Completely free, with a free certificate directly from Google, no subscription needed.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    "enrollLink": "https://learndigital.withgoogle.com/digitalgarage/courses",
+    "category": "Digital Marketing"
+  },
+  {
+    "title": "NPTEL Online Courses (IIT/IISc faculty)",
+    "description": "Free engineering courses taught by IIT and IISc professors, across every major branch. Learning and course content are free; the certificate requires a paid proctored exam (heavily subsidized, around ₹1000) — many GTU students already use NPTEL certificates for activity points.",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+    "enrollLink": "https://nptel.ac.in/",
+    "category": "Engineering"
+  },
+  {
+    "title": "IBM SkillsBuild",
+    "description": "Free courses for students covering AI, cybersecurity, data science and more, built by IBM. Courses and certificates are both completely free.",
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80",
+    "enrollLink": "https://skillsbuild.org/",
+    "category": "AI & Data"
   }
 ]
