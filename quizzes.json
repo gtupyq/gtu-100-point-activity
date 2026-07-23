@@ -8,27 +8,35 @@
     "featured": true
   },
   {
-    "title": "[DUMMY] Sample Quiz — Replace Before Publishing",
-    "description": "This is placeholder text so you can see how a card looks. Replace title, description, image, link and deadline with a real opportunity before this goes live.",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
-    "affiliateLink": "https://example.com/replace-this-link",
-    "deadline": "2026-08-20T23:59:00",
+    "title": "AI Arena 2026: Online MCQ Quiz Competition",
+    "description": "Free online AI-themed MCQ quiz. Participate to earn a participation certificate and improve your knowledge.",
+    "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/6a5da51c3fa2d_ai-arena-2026-online-mcq-quiz-competition.png?d=1920x557",
+    "affiliateLink": "https://unstop.com/quiz/ai-arena-2026-online-mcq-quiz-competition-angels-secondary-boarding-school-1721694?lb=NL5ptw9&utm_medium=Share&utm_source=quizzes&utm_campaign=Harikpat4619",
+    "deadline": "2026-07-27T13:45:00",
     "featured": false
   },
   {
-    "title": "[DUMMY] Sample Hackathon — Replace Before Publishing",
-    "description": "Another placeholder card so you can see the grid with more than one item. Swap this out whenever you have a real hackathon or workshop to list.",
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
-    "affiliateLink": "https://example.com/replace-this-link-2",
-    "deadline": "2026-07-28T18:00:00",
+    "title": "Logo League 2026",
+    "description": "Online logo design quiz competition for students. Individual participation with exciting learning opportunities.",
+    "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a5f1c5385f39_whatsapp_image_2026-07-21_at_12.42.41_pm.jpeg?d=200x200",
+    "affiliateLink": "https://unstop.com/competitions/logo-league-2026-siddhartha-institute-of-engineering-and-technology-hyderabad-1722726?lb=NL5ptw9&utm_medium=Share&utm_source=competitions&utm_campaign=Harikpat4619",
+    "deadline": "2026-08-31T00:00:00",
     "featured": false
   },
   {
-    "title": "[DUMMY] Sample Expired Listing — For Preview Only",
-    "description": "This one has a past deadline on purpose, so you can see what the Expired state looks like. Delete this block once you're happy with the design.",
-    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
-    "affiliateLink": "https://example.com/replace-this-link-3",
-    "deadline": "2026-06-15T23:59:00",
+    "title": "Brain Battle 2026",
+    "description": "Online knowledge quiz for students with individual participation.",
+    "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6a5fa91b02228_cass.png?d=200x200",
+    "affiliateLink": "https://unstop.com/quiz/brain-battle-2026-college-of-commerce-arts-and-science-ccas-patna-bihar-1723106?lb=NL5ptw9&utm_medium=Share&utm_source=quizzes&utm_campaign=Harikpat4619",
+    "deadline": "2026-08-04T00:00:00",
+    "featured": false
+  },
+  {
+    "title": "Case Converge 1.0",
+    "description": "National online case competition designed to test analytical and strategic thinking.",
+    "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/6a5aa0bf8f52b_case-converge-10-180dc-svc-x-180dc-kn.png?d=1920x557",
+    "affiliateLink": "https://unstop.com/competitions/case-converge-10-180dc-svc-x-180dc-kn-languify-180dc-svc-x-180dc-knc-1720163?lb=NL5ptw9&utm_medium=Share&utm_source=competitions&utm_campaign=Harikpat4619",
+    "deadline": "2026-07-25T00:00:00",
     "featured": false
   }
 ]
