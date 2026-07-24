@@ -9,35 +9,35 @@
    ========================================================================== */
 
 :root {
-  /* --- Core light palette --- */
-  --bg: #F8FAFC;              /* page background */
-  --surface: #FFFFFF;         /* card / header surface */
-  --surface-alt: #F1F5F9;     /* image placeholder / secondary surface */
-  --surface-raised: #EFF4FA;  /* hover / raised surface */
-  --divider: #E2E8F0;
+  /* --- Core dark palette (Cobalt Blue theme) --- */
+  --bg: #0C1220;              /* page background */
+  --surface: #141B2E;         /* card / header surface */
+  --surface-alt: #182544;     /* image placeholder / secondary surface */
+  --surface-raised: #1B2C52;  /* hover / raised surface */
+  --divider: #223357;
 
-  /* --- Accent (Primary Blue) --- */
-  --accent: #2563EB;
-  --accent-dark: #1D4ED8;
+  /* --- Accent (Cobalt Green) --- */
+  --accent: #16A34A;
+  --accent-dark: #15803D;
   --accent-text-on: #FFFFFF;  /* text used on top of the accent */
 
   /* --- Status colors --- */
-  --status-live: #10B981;
-  --status-live-bg: #ECFDF5;
-  --status-soon: #F59E0B;
-  --status-soon-bg: #FFFBEB;
-  --status-expired: #94A3B8;
-  --status-expired-bg: #F1F5F9;
+  --status-live: #2DD4BF;
+  --status-live-bg: #0F3B36;
+  --status-soon: #FBBF24;
+  --status-soon-bg: #3A2A0C;
+  --status-expired: #7C8BA6;
+  --status-expired-bg: #1B2740;
 
   /* --- Text --- */
-  --text-primary: #0F172A;
-  --text-secondary: #64748B;
+  --text-primary: #F1F5F9;
+  --text-secondary: #93A3B8;
 
   --radius: 20px;       /* cards */
   --radius-btn: 14px;   /* buttons, inputs */
-  --elevation-1: 0 1px 2px rgba(15,23,42,0.05), 0 1px 3px rgba(15,23,42,0.06);
-  --elevation-2: 0 4px 14px rgba(15,23,42,0.08);
-  --elevation-4: 0 16px 32px rgba(15,23,42,0.12);
+  --elevation-1: 0 1px 2px rgba(0,0,0,0.3), 0 1px 3px rgba(0,0,0,0.25);
+  --elevation-2: 0 4px 14px rgba(0,0,0,0.35);
+  --elevation-4: 0 16px 32px rgba(0,0,0,0.45);
 
   --header-height: 64px;
 }
@@ -180,8 +180,8 @@ img { max-width: 100%; display: block; }
 .hero {
   position: relative;
   background:
-    radial-gradient(circle at 15% 20%, rgba(37,99,235,0.06) 0%, transparent 45%),
-    radial-gradient(circle at 85% 80%, rgba(37,99,235,0.05) 0%, transparent 40%),
+    radial-gradient(circle at 15% 20%, rgba(22,163,74,0.18) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(22,163,74,0.13) 0%, transparent 40%),
     var(--bg);
   color: var(--text-primary);
   padding: 64px 0 68px;
@@ -406,7 +406,7 @@ img { max-width: 100%; display: block; }
    Skeleton loaders
    ========================================================================== */
 
-.skeleton { background: linear-gradient(90deg, #EDF1F6 25%, #F7F9FC 37%, #EDF1F6 63%); background-size: 400% 100%; animation: skeleton-shimmer 1.4s ease infinite; border-radius: 6px; }
+.skeleton { background: linear-gradient(90deg, #182544 25%, #1F2D4D 37%, #182544 63%); background-size: 400% 100%; animation: skeleton-shimmer 1.4s ease infinite; border-radius: 6px; }
 @keyframes skeleton-shimmer { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
 .skeleton-card { box-shadow: var(--elevation-1); }
 .skeleton-img { height: 170px; border-radius: 0; }
