@@ -9,21 +9,21 @@
    ========================================================================== */
 
 :root {
-  /* --- Core dark palette (Cobalt Blue theme) --- */
-  --bg: #0C1220;              /* page background */
-  --surface: #141B2E;         /* card / header surface */
-  --surface-alt: #182544;     /* image placeholder / secondary surface */
-  --surface-raised: #1B2C52;  /* hover / raised surface */
-  --divider: #223357;
+  /* --- Core dark palette (Electric Cyan theme) --- */
+  --bg: #0B0F17;              /* page background */
+  --surface: #111826;         /* card / header surface */
+  --surface-alt: #16233A;     /* image placeholder / secondary surface */
+  --surface-raised: #1A2233;  /* hover / raised surface */
+  --divider: #1E293D;
 
-  /* --- Accent (Cobalt Green) --- */
-  --accent: #16A34A;
-  --accent-dark: #15803D;
-  --accent-text-on: #FFFFFF;  /* text used on top of the accent */
+  /* --- Accent (Electric Cyan) --- */
+  --accent: #4FD9F0;
+  --accent-dark: #2FBFDA;
+  --accent-text-on: #052A32;  /* dark text on top of the bright accent */
 
   /* --- Status colors --- */
-  --status-live: #2DD4BF;
-  --status-live-bg: #0F3B36;
+  --status-live: #4FD9F0;
+  --status-live-bg: #0E3A44;
   --status-soon: #FBBF24;
   --status-soon-bg: #3A2A0C;
   --status-expired: #7C8BA6;
@@ -180,8 +180,8 @@ img { max-width: 100%; display: block; }
 .hero {
   position: relative;
   background:
-    radial-gradient(circle at 15% 20%, rgba(22,163,74,0.18) 0%, transparent 45%),
-    radial-gradient(circle at 85% 80%, rgba(22,163,74,0.13) 0%, transparent 40%),
+    radial-gradient(circle at 15% 20%, rgba(79,217,240,0.14) 0%, transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(79,217,240,0.10) 0%, transparent 40%),
     var(--bg);
   color: var(--text-primary);
   padding: 64px 0 68px;
